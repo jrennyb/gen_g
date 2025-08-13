@@ -720,7 +720,7 @@ ggplot(gfi) +
 
 ## SMOG
 
-"Simple Measure of Gobbledygook"
+"Simple Measure of Gobbledygook" 5-8 is average, and above 14 is difficult to read.
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.height= 8, fig.width=10}
 #SMOG = 1.0430 
@@ -761,7 +761,7 @@ ggplot(gfi) +
     ),
   ) +
   xlab("Date") +
-  ylab("Gunning Fog Index") +
+  ylab("SMOG Index") +
   scale_fill_ov(palette = "choro") +
   guides(fill = guide_legend(title = "Index of Readability"))
 ```
